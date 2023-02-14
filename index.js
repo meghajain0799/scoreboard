@@ -51,7 +51,7 @@ function guestFoulCount(){
     document.getElementById("guest-foul-score").innerText = guestFoulScore;
 }
 
-const startingMinutes = 1;
+const startingMinutes = 5;
 let time = startingMinutes * 60;
 const countdownEl = document.getElementById("timer");
 let intervalId;
