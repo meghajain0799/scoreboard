@@ -118,6 +118,8 @@ function stopTimer() {
     document.getElementById("home-foul-score").innerText = homeFoulScore;
     document.getElementById("period").innerText = periodCount;
     document.getElementById("guest-foul-score").innerText = guestFoulScore;
+    document.getElementById("home").style.color ="whitesmoke";
+  document.getElementById("guest").style.color = "whitesmoke"
     resetTimer();
   }
 
