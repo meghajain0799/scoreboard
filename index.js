@@ -51,6 +51,7 @@ function guestFoulCount(){
     document.getElementById("guest-foul-score").innerText = guestFoulScore;
 }
 
+//user can set initial timer minutes
 const startingMinutes = 5;
 let time = startingMinutes * 60;
 const countdownEl = document.getElementById("timer");
