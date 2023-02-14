@@ -1,0 +1,282 @@
+body{
+    margin:0;
+    
+}
+
+.container{
+    
+    margin:auto;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: #1B244A;
+    max-width : 550px;
+    max-height: 700px;
+
+}
+
+.team-name,.score-board,.score-button,.foul-period, .timer{
+    display: flex;
+}
+
+#home{
+    width: 149px;
+    height: 20px;
+    top: 68px;
+    margin-left: 70px;
+    right:338px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+   line-height: 36px;
+   text-align: center;
+   color: #EEEEEE;
+
+}
+
+#guest{
+    width: 149px;
+    height: 20px;
+    top: 68px;
+    left: 107px;
+    margin-right: 84px;
+    margin-left:102px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+   font-size: 40px;
+   line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+   
+}
+
+
+#home-score{
+    
+    width: 155px;
+    height: 120px;
+    bottom:140px;
+    margin-left:68px;
+    right:338px;
+    background-color: black;
+      /* padding: 15px 40px  ; */
+     border-radius: 10px; 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    
+    color: #F94F6D;
+
+/* or 141% */
+
+
+}
+
+#guest-score{
+    width: 155px;
+    height: 120px;
+    top:125px;
+    bottom:140px;
+    margin-right:83px;
+    margin-left:100px;
+    left:337px;
+/* margin-left: 100px; */
+   /* margin-left:40px; */
+   background-color: black;
+    /* padding: 15px 40px ; */
+   border-radius: 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    
+    color: #F94F6D;
+}
+
+button{
+   
+    border:  #9AABD8 1px solid ;
+    border-style: solid;
+    width: 45px;
+    height: 40px;
+
+}
+
+#score-button-1{
+    
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-top: 31px;
+    margin-left:70px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#score-button-2{
+    width: 155px;
+    height: 70px;
+    right: 83px;
+    top: 271px;
+    margin-left:100px;
+    margin-top: 31px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#homeAdd1{
+    color: #9AABD8;
+    background-color: #1B244A;
+    margin-left: 2px;
+    border-radius: 3px;
+    padding : 6px 6px;
+    
+}
+
+#homeAdd2{
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-radius: 3px;
+    margin-left: 4px;
+    padding : 6px 6px;
+}
+
+#homeAdd3{
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-radius: 3px;
+    margin-left: 4px;
+    padding : 6px 6px;
+}
+
+#guestAdd1{
+    color: #9AABD8;
+    background-color: #1B244A;
+    margin-left: 2px;
+    border-radius: 3px;
+    padding : 6px 6px;
+}
+
+#guestAdd2{
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-radius: 3px;
+    margin-left: 4px;
+    padding : 6px 6px;
+}
+
+#guestAdd3{
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-radius: 3px;
+    margin-left: 4px;
+    padding : 6px 6px;
+}
+
+#home-foul{
+    margin-left:130px;
+    font-family: 'Verdana';
+    font-style: normal;
+
+text-align: center;
+
+color: #EEEEEE;
+}
+
+#period-label{
+    font-family: 'Verdana';
+    font-style: normal;
+margin-left:92px;
+text-align: center;
+
+color: #EEEEEE;
+}
+
+#guest-foul{
+    margin-left: 90px;
+    font-family: 'Verdana';
+    font-style: normal;
+text-align: center;
+color: #EEEEEE;
+}
+
+#home-foul-score{
+
+    margin-left:120px;
+    padding: 4px 4px;
+    background-color: black;
+    border-radius: 10px; 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#period{
+
+    margin-left: 67px;
+    padding: 4px 4px;
+    background-color: black;
+    border-radius: 10px; 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#guest-foul-score{
+    margin-left: 60px;
+    padding: 4px 4px;
+     background-color: black;
+     border-radius: 10px; 
+     font-family: 'Cursed Timer ULiL', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 90px;
+     line-height: 127px;
+     text-align: center;
+     color: #F94F6D;
+}
+
+#start{
+    width: 100%;
+    text-align: center;
+ margin: 20px 20px;
+background-color: #21b972;
+}
+
+#timer{
+    
+    margin-left:12px;
+    padding: 1px 1px;
+    background-color: black;
+    border-radius: 10px; 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120px;
+    text-align: center;
+    color: #F94F6D; 
+}
+
+#new{
+    width: 100%;
+text-align: center;
+margin: 20px 20px;
+background-color: #21b972;
+}

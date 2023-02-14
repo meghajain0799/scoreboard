@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/gh/mustafazeydani/Fonts/CursedTimerULiL/CursedTimerULiL.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+       
+            <div class="timer">
+                <button id="start" onclick="startTimer()">Start Game</button>
+                <span  id="timer">05:00</span>
+                <button id="new" onclick = "resetGame()">New Game</button>
+            </div>
+
+        <div class="team-name" id="team-name">
+            <h3 id="home">HOME</h3>
+            <h3 id="guest">GUEST</h3>
+        </div>
+
+    <div class="score-board" id="score-board">
+        <span id="home-score">0</span>
+        <span id="guest-score">0</span>
+    </div>
+
+
+    <div class="score-button">
+        <div class="score-button-1" id="score-button-1">
+            <button id="homeAdd1" onclick="homeAdd1()">+1</button>
+        
+            <button id="homeAdd2" onclick="homeAdd2()">+2</button>
+            <button id="homeAdd3" onclick="homeAdd3()">+3</button>
+        </div>
+            <div class="score-button-2" id="score-button-2">
+                <button id="guestAdd1" onclick="guestAdd1()">+1</button>
+                <button id="guestAdd2" onclick="guestAdd2()">+2</button>
+                <button id="guestAdd3" onclick="guestAdd3()">+3</button>
+             </div>
+        </div>
+
+
+        <div class="foul-period" id="foul-period">
+            <p id="home-foul">Foul</p>
+            <p id="period-label">Period</p>
+            <p id="guest-foul">Foul</p>
+        </div>
+
+    <div class="foul">
+        <span  id="home-foul-score" onclick="homeFoulCount()">0</span>
+        <span  id="period" onclick="period()">0</span>
+        <span  id="guest-foul-score" onclick="guestFoulCount()">0</span>
+    </div>
+    </div>
+        
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
